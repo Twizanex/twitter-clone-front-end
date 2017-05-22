@@ -535,7 +535,7 @@ npm run start
 ```
 # This is how our Node.js command prompt looks like
 
-![Final Node.js command prompt result](https://github.com/Twizanex/twitter-clone-front-end/blob/master/webpack_node_j_command_prompt.png"Final Node.js command prompt result")
+![Final Node.js command prompt result](https://github.com/Twizanex/twitter-clone-front-end/blob/master/webpack_node_j_command_prompt.png "Final Node.js command prompt result")
 
 
 You can now view your beautiful website by running `npm run start`, and navigating to
