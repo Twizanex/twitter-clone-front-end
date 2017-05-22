@@ -12,11 +12,6 @@ new technologies.
 ![Final result](https://github.com/marabesi/twitter-clone-front-end/blob/master/final-result.png "Final result")
 
 
-
-
-
-
-
 # Beginner Webpack Tutorial Part 1 - Introduction To Webpack :zap:
 
 This is for the people like me whose first intro to webpack was a repository similar to:
@@ -42,15 +37,13 @@ The final tree for your file should look like this:
 
       C:\Users\OWNER\twitter-clone-front-end
 
-# Next go to your windows start button and locate were your Node.js command prompt file icon is and click on it to open a black screen so that we can start working on our project.
+Next go to your windows start button and locate where your Node.js command prompt file icon is and click on it to open a black screen so that we can start working on our project.
 
 Once the Node.Js command prompt is open on the screen, you will see the first line on the black screen like this:
-
 
      C:\Users\OWNER>
 
 Then if this is the default or starting point of file locations in your local developing computer, then you will need to type in this command inorder to get into your `twitter-clone-front-end` file. Use this command inrder to get into the file.
-
 
     cd twitter-clone-front-end
     
@@ -350,14 +343,12 @@ For example in the diagram above I had
 const path = require('path');
 
 ```
+# Next we are going to need loaders and this is how to install the jade-loader. 
 
-
-
-npm install jade-loader --save
-
+	npm install jade-loader --save
 
 If I include [the style-loader](https://github.com/webpack/style-loader) and the [the css-loader](https://github.com/webpack/css-loader) in my webpack config, this is not only perfectly
-valid, but also will actually apply the CSS to my page.
+valid, but also will actually apply the CSS to our project's page.
 
 This is just a single example of the many loaders you can use with webpack.
 
@@ -377,7 +368,6 @@ as this is the name that webpack recognizes by default. If you choose to use a d
 would have to use the `--config` flag to specify the file's name.
 
 For the purpose of learning this project, `webpack.config.js` has been created for you. So you don't need to create one for now.
-
 
 
 ### Introducing Plugins
@@ -483,14 +473,6 @@ Moreover you will need to have jade loders in ordre for our plugin to combile pr
     npm install jade-loader --save
 
 
-
-
-
-
-
-
-
-
 **Optional**
 
 If you want to use SCSS instead of CSS you would need to run:
@@ -554,6 +536,10 @@ We can run these commands with
 ```
 npm run start
 ```
+# this is how our Node.js command prompt looks like
+
+![Final Node.js command prompt result](https://github.com/Twizanex/twitter-clone-front-end/edit/master/webpack_node_j_command_prompt.png "Final Node.js command prompt result")
+
 
 You can now view your beautiful website by running `npm run start`, and navigating to
 `http://localhost:8080`.
