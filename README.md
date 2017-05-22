@@ -533,6 +533,13 @@ We can run these commands with
 ```
 npm run start
 ```
+
+# To run our application `Twitter-clone-front-end` we will use this command
+
+
+    webpack-dev-server --config webpack.config.js
+
+
 # This is how our Node.js command prompt looks like
 
 ![Final Node.js command prompt result](https://github.com/Twizanex/twitter-clone-front-end/blob/master/webpack_node_j_command_prompt.png "Final Node.js command prompt result")
