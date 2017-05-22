@@ -5,6 +5,8 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: [
+	'webpack-dev-server/client?http://localhost:8080',
+    'webpack/hot/dev-server',
         path.resolve(__dirname, 'src/js/jquery-3.2.1.js'),
         path.resolve(__dirname, 'src/sass/style.scss'),
         path.resolve(__dirname, 'src/js/app.js'),
