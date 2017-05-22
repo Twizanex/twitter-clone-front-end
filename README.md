@@ -167,9 +167,6 @@ We're gonna keep it simple. The way that it works is that you specify a single f
 This file will be the root of your tree. Then every time you `require` a file from another file it's
 added to the tree. When you run `webpack`, all these files/modules are bundled into a single file.
 
-Here's a simple example:
-
-![Dependency Tree](http://i.imgur.com/dSghwwL.png)
 
 Given this picture you could have the directory:
 
@@ -536,7 +533,7 @@ We can run these commands with
 ```
 npm run start
 ```
-# this is how our Node.js command prompt looks like
+# This is how our Node.js command prompt looks like
 
 ![Final Node.js command prompt result](https://github.com/Twizanex/twitter-clone-front-end/edit/master/webpack_node_j_command_prompt.png "Final Node.js command prompt result")
 
